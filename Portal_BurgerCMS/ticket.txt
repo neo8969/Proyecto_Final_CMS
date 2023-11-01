@@ -1,0 +1,4 @@
+Productos seleccionados:
+Hamburguesa
+Postre
+Total a pagar: $100.0

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Realizar pedido</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h3>Seleccione los productos:</h3>
+        {% for product in products %}
+        <input type="checkbox" name="product" value="{{product[1]}}|{{product[2]}}">
+        {{product[1]}} - ${{product[2]}}<br>
+        {% endfor %}
+        <input type="submit" value="Finalizar pedido">
+    </form>
+</body>
+</html>
